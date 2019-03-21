@@ -5,6 +5,7 @@
   "dependencies": {
     "@babel/core": "7.2.2",
     "@svgr/webpack": "4.1.0",
+    "antd": "^3.15.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-eslint": "9.0.0",
     "babel-jest": "23.6.0",
@@ -67,6 +68,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "babel-plugin-import": "^1.11.0",
     "eslint-config-alloy": "^1.4.2"
   },
   "jest": {
@@ -117,6 +119,10 @@
   "babel": {
     "presets": [
       "react-app"
-    ]
+    ],
+    "plugins": [["import", {
+      "libraryName": "antd",
+      "style": "css"
+    }]]
   }
 }

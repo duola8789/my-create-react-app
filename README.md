@@ -24,6 +24,14 @@ npm run eject
 
 代码规范检查工具使用了ESLint，配置规则主要使用了腾讯的[AlloyTeam的ESLint规则](https://github.com/AlloyTeam/eslint-config-alloy)，有[详细的规则描述和示例](https://github.com/AlloyTeam/eslint-config-alloy)，在此基础上进行了一些个性化的定制，具体规则在根目录下的`eslintrc.js`中。
 
+## UI组件
+
+UI组件使用了[Ant Design](https://ant.design/index-cn)的React组件库。
+
+脚手架工具是Create React App，为了实现代码编译时的ESLint校验，并且按需引入UI组件，使用`npm run eject`将配置文件吐出进行了自定义配置，使用了[abel-plugin-import](https://github.com/ant-design/babel-plugin-import)进行按需加载。
+
+
+
 ## 学习文档
 
 - [Create React App](https://github.com/facebook/create-react-app)
