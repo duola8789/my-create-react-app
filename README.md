@@ -1,4 +1,10 @@
-输入法数据统计后台。
+## 说明
+
+基于Create-React-App的React脚手架工具，eject所有配置文件，自定义的项目包括：
+
+1. ESLint，采用了腾讯的AlloyTeam的ESLint规则
+2. 组件库引入了Ant Design，实现按需引入
+3. 可以采用Less编写样式
 
 ## 命令
 
@@ -29,8 +35,6 @@ npm run eject
 UI组件使用了[Ant Design](https://ant.design/index-cn)的React组件库。
 
 脚手架工具是Create React App，为了实现代码编译时的ESLint校验，并且按需引入UI组件，使用`npm run eject`将配置文件吐出进行了自定义配置，使用了[abel-plugin-import](https://github.com/ant-design/babel-plugin-import)进行按需加载。
-
-
 
 ## 学习文档
 
