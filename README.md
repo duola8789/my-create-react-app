@@ -6,6 +6,16 @@
 2. 组件库引入了Ant Design，实现按需引入
 3. 可以采用Less编写样式
 
+## 使用方法
+
+配合[React-Cli-zh](https://github.com/duola8789/react-cli-zh)，可以实现类似Vue-cli脚手架的使用方式
+
+推荐使用NPX拉取模板，避免污染全局环境：
+
+```BASH
+npx react-cli-zh init [project_name]
+```
+
 ## 命令
 
 ```BASH
