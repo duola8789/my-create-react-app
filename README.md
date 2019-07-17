@@ -1,6 +1,6 @@
 ## 说明
 
-基于Create-React-App的React脚手架工具，eject所有配置文件，自定义的项目包括：
+基于Create-React-App的React模板，eject所有配置文件，自定义的项目包括：
 
 1. ESLint，采用了腾讯的AlloyTeam的ESLint规则
 2. 组件库引入了Ant Design，实现按需引入
